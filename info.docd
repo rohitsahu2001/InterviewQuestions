@@ -1,0 +1,4 @@
+1.Two Sum
+   Logic 1: Make a unordered_map and insert as {m[nums[i]]=i}
+            And in each iteration search m.find(target-nums[i]) and m[target-nums[i]]!=i
+   Logic 2: Make a unordered_map and search m.find(target-nums[i]) and then insert as {m[nums[i]]=i}
